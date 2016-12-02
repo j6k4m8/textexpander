@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>2</integer>
+		<key>groupName</key>
+		<string>Clipboard Commands</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>\\ku</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-01-15T16:43:49Z</date>
+			<key>label</key>
+			<string>To Upper Case</string>
+			<key>modificationDate</key>
+			<date>2016-12-02T13:25:16Z</date>
+			<key>plainText</key>
+			<string>TextExpander.pasteboardText.toUpperCase()</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>9F277B17-D93F-4530-8061-BBA8C4127106</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\\hyph</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-01-15T16:27:21Z</date>
+			<key>label</key>
+			<string>Replace spaces with hyphens</string>
+			<key>modificationDate</key>
+			<date>2016-12-02T13:25:27Z</date>
+			<key>plainText</key>
+			<string>TextExpander.pasteboardText.replace(/\s/g, '-')</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>1F808F22-22D3-4356-A546-E2F9D6C89270</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\\latex</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-02-10T17:34:06Z</date>
+			<key>label</key>
+			<string>Generate LaTeX jpg</string>
+			<key>modificationDate</key>
+			<date>2016-12-02T13:25:51Z</date>
+			<key>plainText</key>
+			<string>"http://chart.apis.google.com/chart?cht=tx&amp;chl=" + encodeURIComponent(TextExpander.pasteboardText)</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>DFA6DF27-0CCF-4A47-AF3A-6B8014D2B188</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\\textit</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-02-20T20:49:06Z</date>
+			<key>label</key>
+			<string>Italicize (unicode)</string>
+			<key>modificationDate</key>
+			<date>2016-12-02T13:25:59Z</date>
+			<key>plainText</key>
+			<string>alph = {
+"A": "𝑨", 
+"B": "𝑩", 
+"C": "𝑪", 
+"D": "𝑫", 
+"E": "𝑬", 
+"F": "𝑭", 
+"G": "𝑮", 
+"H": "𝑯", 
+"I": "𝑰", 
+"J": "𝑱", 
+"K": "𝑲", 
+"L": "𝑳", 
+"M": "𝑴", 
+"N": "𝑵", 
+"O": "𝑶", 
+"P": "𝑷", 
+"Q": "𝑸", 
+"R": "𝑹", 
+"S": "𝑺", 
+"T": "𝑻", 
+"U": "𝑼", 
+"V": "𝑽", 
+"W": "𝑾", 
+"X": "𝑿", 
+"Y": "𝒀", 
+"Z": "𝒁", 
+"a": "𝒂", 
+"b": "𝒃", 
+"c": "𝒄", 
+"d": "𝒅", 
+"e": "𝒆", 
+"f": "𝒇", 
+"g": "𝒈", 
+"h": "𝒉", 
+"i": "𝒊", 
+"j": "𝒋", 
+"k": "𝒌", 
+"l": "𝒍", 
+"m": "𝒎", 
+"n": "𝒏", 
+"o": "𝒐", 
+"p": "𝒑", 
+"q": "𝒒", 
+"r": "𝒓", 
+"s": "𝒔", 
+"t": "𝒕", 
+"u": "𝒖", 
+"v": "𝒗", 
+"w": "𝒘", 
+"x": "𝒙", 
+"y": "𝒚",
+"z": "𝒛"
+}
+
+res = ""
+
+for (var i = 0; i &lt; TextExpander.pasteboardText.length; i++) {
+    if (!alph[TextExpander.pasteboardText[i]]) { res += TextExpander.pasteboardText[i]; }
+    else { res += alph[TextExpander.pasteboardText[i]] }
+}
+
+res</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>EA3225A0-126F-47A3-9D38-B98EC56CCEB8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\\non</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-06-24T17:59:06Z</date>
+			<key>label</key>
+			<string>Remove linefeeds</string>
+			<key>modificationDate</key>
+			<date>2016-12-02T13:26:07Z</date>
+			<key>plainText</key>
+			<string>TextExpander.pasteboardText.replace(/\s+/g, ' ')</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>AFDC2DD7-5F98-4CBB-A2BD-0A9F1E40280F</string>
+		</dict>
+	</array>
+</dict>
+</plist>
