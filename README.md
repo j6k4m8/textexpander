@@ -61,7 +61,7 @@ With text selected, use the following commands to replace the text with a modifi
 | ≥ | `\geq` |
 | β | `\beta` |
 | ≈ | `\approx` |
-| Ξ | `E-|` |
+| Ξ | `E-\|` |
 | ∀ | `\forall` |
 
 ## Numerals 
