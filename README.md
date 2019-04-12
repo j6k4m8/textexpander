@@ -63,3 +63,15 @@ With text selected, use the following commands to replace the text with a modifi
 | ≈ | `\approx` |
 | Ξ | `E-|` |
 | ∀ | `\forall` |
+
+## Pinyin
+
+**Mnemonic:** All pinyin vowels (including ü) are supported. Type the vowel, and then type the vertical bar (<kbd>|</kbd>) and while holding shift, press the tone (1,2,3,4). In other words, to type `ú`, type <kbd>u</kbd> and then <kbd>|</kbd><kbd>@</kbd> (because `@` is Shift+2, for 2nd-tone). To type `ü` vowels, use `u:` in place of the vowel. For example, `ǘ` is `u|:@`. 
+
+| Symbol | Shortcut |
+|--------|----------|
+| ā | `a\|!` |
+| á | `a\|@` |
+| ǎ | `a\|#` |
+| à | `a\|$` |
+| etc. |
