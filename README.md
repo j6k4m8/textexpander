@@ -1,9 +1,17 @@
-# textexpander
-Shortcuts that I frequently use for TextExpander.
+# Text expansions
 
-I need to switch my prefix (currently backslash) so that things like `\cap` don't collide with existing LaTeX syntax, when writing in TeX. But for most use-cases, these should work just fine.
+> Note that I recently switched from TextExpander, which has a $36 annual subscription cost, to [espanso](https://espanso.org/), which is free, and, at least in my experience, MUCH faster.
+>
+> All of the shortcuts below still work, and I have archived the orginal TextExpander backup files in this repo. But the new espanso YAML is available at `default.yml`.
+> 
+> I have also published a converter to enable you to quickly go from TextExpander to espanso, as I did :)
+
+---
+
 
 ## Clipboard Commands
+
+> Note: These are not yet ported to espanso.
 
 With text selected, use the following commands to replace the text with a modified version:
 
